@@ -18,7 +18,7 @@ public class PatternMatchingSwitchExample {
             case Long num -> num.doubleValue();
             case Double num -> num.doubleValue();
             // Guarded check where case statement can be written with conditional expressions
-            case String num && num.length() > 0 -> Double.valueOf(num);
+//            case String (num && num.length() > 0) -> Double.valueOf(num);
             case null -> -1d;
             default -> 0d;
         };

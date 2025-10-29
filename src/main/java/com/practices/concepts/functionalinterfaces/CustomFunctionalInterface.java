@@ -1,10 +1,10 @@
 package com.practices.concepts.functionalinterfaces;
 
 /*
-*  The behaviour of lambda function will not depend on the FunctionalInterface.
+*  The behavior of lambda function will not depend on the FunctionalInterface.
 *  Irrespective of the annotation, as long as it has only one abstract method, it is treated as functional interface
 *
-* Adding FunctionalInterface is to make sure only one abstact method exists.
+* Adding FunctionalInterface is to make sure only one abstract method exists.
 *   1. If someone trying to add another abstract method, it will give compilation error
 *   2. This will stop all the errors with lambda functions
 * */
